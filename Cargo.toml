@@ -1,0 +1,16 @@
+[package]
+name = "rust_snake"
+version = "0.1.0"
+authors = ["Francesco Palazzini <palazzini.francesco@gmail.com>"]
+
+[dependencies]
+snake = { path = "snake" }
+display = { path = "display" }
+
+[lib]
+name = "game"
+path = "src/game.rs"
+
+[[bin]]
+name = "main"
+path = "src/bin/main.rs"
